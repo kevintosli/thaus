@@ -1,0 +1,40 @@
+// 
+// Colors variables
+// 
+
+// Monochrome
+$color-black-pure: black;
+$color-black-regular: rgba($color-black-pure, .86);
+$color-black-higher: rgba($color-black-pure, .72);
+$color-black-high: rgba($color-black-pure, .54);
+$color-black-medium: rgba($color-black-pure, .38);
+$color-black-low: rgba($color-black-pure, .24);
+$color-black-lower: rgba($color-black-pure, .12);
+$color-black-lowest: rgba($color-black-pure, .08);
+$color-black-min: rgba($color-black-pure, .04);
+
+$color-white-pure: white;
+$color-white-regular: rgba($color-white-pure, .86);
+$color-white-higher: rgba($color-white-pure, .72);
+$color-white-high: rgba($color-white-pure, .54);
+$color-white-medium: rgba($color-white-pure, .38);
+$color-white-low: rgba($color-white-pure, .24);
+$color-white-lower: rgba($color-white-pure, .12);
+$color-white-lowest: rgba($color-white-pure, .08);
+$color-white-min: rgba($color-white-pure, .04);
+
+$color-almost_white: #f0f0f0;
+
+// Palette
+$palette-primary-lighter: #FF7640;
+$palette-primary-default: #FF520E;
+$palette-primary-darker: #D03B00;
+$palette-secondary-lighter: #347AAF;
+$palette-secondary-default: #1367A7;
+$palette-secondary-darker: #084F86;
+$palette-tertiary-lighter: #88E739;
+$palette-tertiary-default: #6EE40C;
+$palette-tertiary-darker: #54B900;
+
+// Default variables
+$color-accent: $palette-primary-default !default;

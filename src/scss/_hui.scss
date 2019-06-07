@@ -1,0 +1,56 @@
+// 
+// Human User Interface
+// 
+
+// CSS Variables
+:root {
+  --color-bg-primary: #{$color-white-pure};
+  --color-bg-secondary: #{$color-almost_white};
+  --color-accent: #{$color-accent};
+}
+
+// Basic HTML structure
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-family: 'Rubik', -apple-system, Helvetica, sans-serif;
+}
+
+body {
+  color: $color-black-regular;
+  font-size: $font-size-base;
+}
+
+a {
+
+  &:link,
+  &:visited {
+    color: var(--color-accent);
+    position: relative;
+
+    &:after {
+      background-color: currentColor;
+      bottom: rem(-1px);
+      content: "";
+      display: block;
+      height: rem(1px);
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+    }
+
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+}

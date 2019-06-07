@@ -1,29 +1,20 @@
-# thaus
+# Tosli's Workshop
+Is this is where the magic happens?
 
 ## Project setup
-```
-npm install
-```
+```js
+// After cloning this repository, run the following code
+   npm install
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+// Compiles and hot-reloads for development
+   npm run serve || npm run serve-https
 
-### Compiles and minifies for production
-```
-npm run build
-```
+// Compiles and minifies for production
+   npm run build
 
-### Run your tests
-```
-npm run test
-```
+// Run your tests
+   npm run test
 
-### Lints and fixes files
+// Lints and fixes files
+   npm run lint
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

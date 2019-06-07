@@ -1,0 +1,23 @@
+// 
+// Browser's styling reset
+// 
+
+body {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: inherit;
+  }
+}
+
+input {
+  appearance: none;
+  font: inherit;
+}
