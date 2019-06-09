@@ -1,7 +1,9 @@
 # Tosli's Workshop
+
 Is this is where the magic happens?
 
 ## Project setup
+
 ```js
 // After cloning this repository, run the following code
    npm install
