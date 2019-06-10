@@ -1,0 +1,11 @@
+// 
+// Typography
+// 
+
+p {
+  line-height: 1.5em;
+
+  &:not(:last-child) {
+    margin-bottom: $dp1;
+  }
+}

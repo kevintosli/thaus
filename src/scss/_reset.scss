@@ -2,10 +2,16 @@
 // Browser's styling reset
 // 
 
+* {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   font-size: 100%;
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {

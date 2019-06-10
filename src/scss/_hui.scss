@@ -7,6 +7,7 @@
   --color-bg-primary: #{$color-white-pure};
   --color-bg-secondary: #{$color-almost_white};
   --color-accent: #{$color-accent};
+  --font-family-default: 'Overpass', -apple-system, Helvetica, sans-serif;
 }
 
 // Basic HTML structure
@@ -14,13 +15,15 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  background: rgba($color-accent, 0.24);
+  color: $color-accent;
 }
 
 html {
-  font-family: 'Rubik', -apple-system, Helvetica, sans-serif;
+  font-family: var(--font-family-default);
 }
 
 body {

@@ -1,4 +1,6 @@
-$font-size-base: 16px;
+// 
+// Helpers, Functions and Mixins
+// 
 
 @function rem($size) {
   $remSize: $size / $font-size-base;
